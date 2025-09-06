@@ -24,7 +24,7 @@ from Zepto_Grocery_Data
 select cast(Avg(rating) as decimal (10,2)) as Avg_Rating 
 from Zepto_Grocery_Data
 
---Granular Requirements 
+
 
 -- Toatl Sales by Fat Content
 
@@ -104,6 +104,7 @@ SELECT Outlet_Type,
    -- where Outlet_Establishment_Year = 2022
     GROUP BY Outlet_Type
     order by Total_Sales Desc
+
 
 
 
